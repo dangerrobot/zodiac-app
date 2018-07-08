@@ -1,6 +1,6 @@
 {
-  "name": "my-app-1",
-  "homepage": "https://dangerrobot.github.io/zodiac-app-1/",
+  "name": "my-app",
+  "homepage": "https://dangerrobot.github.io/zodiac-app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
