@@ -24,7 +24,29 @@ const DateList = ({date}) => {
       {date.map((date) => {
         return <div className="align_center">
           <DayPickerInput onDayChange={day => console.log(day)} />
-          <input type="submit" value="Submit" />
+
+          <button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#myModal">
+            Submit
+          </button>
+
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h3 class="modal-title" id="myModalLabel">You are a ....</h3>
+                </div>
+                <div class="modal-body">
+                  <h4>Zodiac sign here</h4>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
         </div>
       })}
     </div>

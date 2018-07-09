@@ -103,12 +103,12 @@ label {
   margin: 0 1%;
 }
 
-input[type="submit"] {
+/* input[type="submit"] {
   border: 3px solid #222;
   padding: 0.2% 2%;
   font-family: 'Baloo', cursive;
   margin-left: 1%;
-}
+} */
 
 /* style overrides */
 .btn-default,
@@ -120,6 +120,19 @@ a:hover.btn_default {
   text-align: center;
   border: 3px solid #222;
   margin-bottom: 5%;
+}
+
+.btn {
+  font-family: 'Baloo', cursive;
+}
+
+.btn-primary {
+  border-radius: 1px;
+  border: 3px solid #222;
+  background-color: #fff;
+  color: #222;
+  margin-left: 1%;
+  padding: 2px 10px;
 }
 /*  */
 
